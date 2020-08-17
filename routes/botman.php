@@ -8,7 +8,7 @@ use BotMan\BotMan\Messages\Attachments\Video;
 
 // base de datos
 // detalles de la conexion
-// $conn_string = "host=localhost port=5432 dbname=leenN user=postgres password=26a26f options='--client_encoding=UTF8'";
+// $conn_string = "host=localhost port=5432 dbname=leenN user=postgres password=password3 options='--client_encoding=UTF8'";
  
 // // establecemos una conexion con el servidor postgresSQL
 // $dbconn = pg_connect($conn_string);
@@ -94,7 +94,7 @@ $botman->hears('.*(cuantas escuelas hay|Cuantas escuelas hay en el programa|¿Cu
 $host='localhost';
 $db = 'leenN';
 $username = 'postgres';
-$password = '26a26f';
+$password = 'password3';
 
 // $dsn = "pgsql:host=$host;port=5432;dbname=$db;user=$username;password=$password";
 
@@ -129,7 +129,7 @@ $botman->hears('.*(cuantos diagnósticos hay|Cuantos diagnósticos hay en el pro
   $host='localhost';
   $db = 'leenN';
   $username = 'postgres';
-  $password = '26a26f';
+  $password = 'password3';
   
   // $dsn = "pgsql:host=$host;port=5432;dbname=$db;user=$username;password=$password";
   
@@ -157,10 +157,10 @@ $botman->hears('.*(cuantos diagnósticos hay|Cuantos diagnósticos hay en el pro
      }
 
  
-  // $conexion = pg_connect("host=localhost dbname=leenN user=postgres password=26a26f");
+  // $conexion = pg_connect("host=localhost dbname=leenN user=postgres password=password3");
   // $query = 'SELECT * FROM diagnostico_plantel';
   // $result = pg_query($conexion, $query);
-  // $conexion1 = pg_connect("host=localhost dbname=leenN user=postgres password=26a26f");
+  // $conexion1 = pg_connect("host=localhost dbname=leenN user=postgres password=password3");
   // $query1 = "INSERT INTO preguntas VALUES ('¿Cuantos diagnósticos hay en el programa?')";
   // pg_query($conexion1, $query1);
   // $rows = pg_num_rows($result);
@@ -172,7 +172,7 @@ $botman->hears('.*(cuantos planes de trabajo hay|Cuantos planes de trabajo hay e
   $host='localhost';
   $db = 'leenN';
   $username = 'postgres';
-  $password = '26a26f';
+  $password = 'password3';
   
   // $dsn = "pgsql:host=$host;port=5432;dbname=$db;user=$username;password=$password";
   
@@ -199,10 +199,10 @@ $botman->hears('.*(cuantos planes de trabajo hay|Cuantos planes de trabajo hay e
       // echo $e->getMessage();
      }
 
-  // $conexion = pg_connect("host=localhost dbname=leenN user=postgres password=26a26f");
+  // $conexion = pg_connect("host=localhost dbname=leenN user=postgres password=password3");
   // $query = 'SELECT * FROM plan_trabajo';
   // $result = pg_query($conexion, $query);
-  // $conexion1 = pg_connect("host=localhost dbname=leenN user=postgres password=26a26f");
+  // $conexion1 = pg_connect("host=localhost dbname=leenN user=postgres password=password3");
   // $query1 = "INSERT INTO preguntas VALUES ('¿Cuantos planes de trabajo hay en el programa?')";
   // pg_query($conexion1, $query1);
   // $rows = pg_num_rows($result);
@@ -214,7 +214,7 @@ $botman->hears('.*(cuantas rendiciones de cuentas hay|cuantas rendiciones de cue
   $host='localhost';
   $db = 'leenN';
   $username = 'postgres';
-  $password = '26a26f';
+  $password = 'password3';
   
   // $dsn = "pgsql:host=$host;port=5432;dbname=$db;user=$username;password=$password";
   
@@ -242,10 +242,10 @@ $botman->hears('.*(cuantas rendiciones de cuentas hay|cuantas rendiciones de cue
      }
 
  
-  // $conexion = pg_connect("host=localhost dbname=leenN user=postgres password=26a26f");
+  // $conexion = pg_connect("host=localhost dbname=leenN user=postgres password=password3");
   // $query = 'SELECT * FROM rendicion_cuentas';
   // $result = pg_query($conexion, $query);
-  // $conexion1 = pg_connect("host=localhost dbname=leenN user=postgres password=26a26f");
+  // $conexion1 = pg_connect("host=localhost dbname=leenN user=postgres password=password3");
   // $query1 = "INSERT INTO preguntas VALUES ('¿cuantas rendiciones de cuentas hay en el programa?')";
   // pg_query($conexion1, $query1);
   // $rows = pg_num_rows($result);
